@@ -47,6 +47,15 @@ nav a:hover{
 
 }
 
+form{
+    width: 380px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+}
+
 /*  especificos id */
 
 #itemContato{
@@ -102,7 +111,7 @@ nav a:hover{
 }
 
 .texto centralizado{
-    text-align: left;
+    text-align: center;
 }
 
 .btn-pata{
@@ -120,3 +129,11 @@ nav a:hover{
 #produto .flex-container{
     margin-top: 43px;
 }
+
+.container{
+    width: 10px;
+    background-color: #91e467;
+    margin: 0 auto;
+    
+}
+
