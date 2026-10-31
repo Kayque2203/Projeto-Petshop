@@ -131,3 +131,15 @@ iframe{
     text-transform: uppercase;
  }
 
+
+/* Ajustes para celular */
+img{max-width:100%}
+#contato .texto-centralizado{margin-bottom:24px}
+@media(max-width:900px){
+  .container{width:auto!important;max-width:100%;padding:40px 20px}
+  .flex-container,#produto .flex-container{flex-direction:column;flex-wrap:wrap}
+  .flex-container .col,.produto{width:100%!important;max-width:100%;margin-bottom:24px}
+  nav ul{flex-wrap:wrap;justify-content:center}
+}
+input,textarea{max-width:100%;box-sizing:border-box}
+@media(max-width:900px){form,form label{width:100%}input,textarea{width:100%}}
